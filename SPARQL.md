@@ -66,6 +66,7 @@
 </tr>
 </tbody>
 </table><pre class=" language-sparql"><code class="prism  language-sparql">SELECT ?person ?personLabel ?birth_placeLabel ?coodinates
+ 
 WHERE{
 
   ?person wdt:P69 wd:Q332342 . # all those who studied at Trinity College in Ireland
@@ -73,8 +74,7 @@ WHERE{
   ?person wdt:P106 wd:Q170790 . # ordered by occupation listed
   ?person wdt:P21 wd:Q6581097 . # male who studied at Trinity College
   ?person wdt:P19 ?birth_place . # place of birth , make sure the name given is at select query on top
-  # with Label after the name ensure the name of that searched identifier
-  ?birth_place wdt:P625 ?coodinates .
+  ?birth_place wdt:P625 ?coodinates . # with Label after the name ensure the name of that searched identifier
   
    SERVICE wikibase:label { 
        bd:serviceParam wikibase:language "en" . }
