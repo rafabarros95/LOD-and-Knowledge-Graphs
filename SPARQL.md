@@ -9,7 +9,8 @@
 <li><strong>Data Access</strong> and <strong>query language</strong>  in order to handle large, complex and interconnected datasets**;</li>
 <li><strong>Semantic Web Principle</strong>: data should be able to get accessed across platforms and universally understood;</li>
 <li><strong>Data Silos and its interoperability</strong>: database tables with rows and columns makes difficult to understand and link the relationships between different datasets;</li>
-<li></li>
+<li><strong>Relational Databases</strong>: rely on restructure while adding new data type when the pre-structured or predefined schema is modified;</li>
+<li><strong>SQL Queries Limitations</strong>: as the data are more interconnected, the traditional SQL queries struggle with optimized ways of querying and retrieving complex interlinked data and its relationships;</li>
 </ul>
 <p>SPARQL, which stands for <strong>SPARQL Protocol and RDF Query Language</strong>, is a powerful language designed to query and manipulate data stored in RDF (Resource Description Framework) format. It is widely used to interact with linked open data and knowledge graphs, especially in the context of the Semantic Web.</p>
 <hr>
