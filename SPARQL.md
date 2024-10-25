@@ -4,7 +4,13 @@
 ---
 
 <h1 id="sparql">SPARQL</h1>
-<h1 id="introduction-to-sparql">Introduction to SPARQL</h1>
+<h2 id="contextual-analysis-sparql">Contextual Analysis: SPARQL</h2>
+<ul>
+<li><strong>Data Access</strong> and <strong>query language</strong>  in order to handle large, complex and interconnected datasets**;</li>
+<li><strong>Semantic Web Principle</strong>: data should be able to get accessed across platforms and universally understood;</li>
+<li><strong>Data Silos and its interoperability</strong>: database tables with rows and columns makes difficult to understand and link the relationships between different datasets;</li>
+<li></li>
+</ul>
 <p>SPARQL, which stands for <strong>SPARQL Protocol and RDF Query Language</strong>, is a powerful language designed to query and manipulate data stored in RDF (Resource Description Framework) format. It is widely used to interact with linked open data and knowledge graphs, especially in the context of the Semantic Web.</p>
 <hr>
 <h2 id="what-is-sparql">What is SPARQL?</h2>
