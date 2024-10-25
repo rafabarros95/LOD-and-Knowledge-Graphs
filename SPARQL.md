@@ -14,6 +14,7 @@
 <li><strong>Limitation of Data Interpretation</strong>: the ability to reason and understand the meaning behind data by previously data systems was missing;</li>
 <li><strong>Sharing Data on Internet</strong>: the ability to reason and understand the meaning behind data by previously data systems was missing;</li>
 </ul>
+<p><img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2024/02/Relational-Database-vs-Graph-Database-1-1-scaled.jpg" alt=""></p>
 <hr>
 <p>SPARQL, which stands for <strong>SPARQL Protocol and RDF Query Language</strong>, is a powerful language designed to query and manipulate data stored in RDF (Resource Description Framework) format. It is widely used to interact with linked open data and knowledge graphs, especially in the context of the Semantic Web.</p>
 <hr>
