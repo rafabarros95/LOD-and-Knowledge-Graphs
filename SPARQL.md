@@ -6,12 +6,15 @@
 <h1 id="sparql">SPARQL</h1>
 <h2 id="contextual-analysis-sparql">Contextual Analysis: SPARQL</h2>
 <ul>
-<li><strong>Data Access</strong> and <strong>query language</strong>  in order to handle large, complex and interconnected datasets**;</li>
+<li><strong>Data Access</strong> and <strong>Query Language</strong>  in order to handle large, complex and interconnected datasets**;</li>
 <li><strong>Semantic Web Principle</strong>: data should be able to get accessed across platforms and universally understood;</li>
-<li><strong>Data Silos and its interoperability</strong>: database tables with rows and columns makes difficult to understand and link the relationships between different datasets;</li>
+<li><strong>Data Silos and its Interoperability</strong>: database tables with rows and columns makes difficult to understand and link the relationships between different datasets;</li>
 <li><strong>Relational Databases</strong>: rely on restructure while adding new data type when the pre-structured or predefined schema is modified;</li>
 <li><strong>SQL Queries Limitations</strong>: as the data are more interconnected, the traditional SQL queries struggle with optimized ways of querying and retrieving complex interlinked data and its relationships;</li>
+<li><strong>Limitation of Data Interpretation</strong>: the ability to reason and understand the meaning behind data by previously data systems was missing;</li>
+<li><strong>Sharing Data on Internet</strong>: the ability to reason and understand the meaning behind data by previously data systems was missing;</li>
 </ul>
+<hr>
 <p>SPARQL, which stands for <strong>SPARQL Protocol and RDF Query Language</strong>, is a powerful language designed to query and manipulate data stored in RDF (Resource Description Framework) format. It is widely used to interact with linked open data and knowledge graphs, especially in the context of the Semantic Web.</p>
 <hr>
 <h2 id="what-is-sparql">What is SPARQL?</h2>
