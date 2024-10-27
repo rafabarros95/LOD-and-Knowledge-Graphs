@@ -13,6 +13,7 @@ October 2024</strong></p>
 <li>Sparql:  Overview, Purpose and Basic Syntax;</li>
 <li>Its Application in LOD;</li>
 <li>Examples ( Isaac Newton data from Wikipedia );</li>
+<li>Real World Applications;</li>
 <li>Limitations and Future Analysis for Improvements in Knowledge Graphs;</li>
 <li>References;</li>
 </ul>
@@ -38,6 +39,15 @@ October 2024</strong></p>
 <h3 id="sparql-types">SPARQL Types:</h3>
 <ol>
 <li><strong>ASK</strong>: check if at least one match exists and return boolean ( TRUE or FALSE );</li>
+</ol>
+<ul>
+<li><em><strong>Use Case</strong></em>: Useful for checks in data validation;</li>
+</ul>
+<pre class=" language-sparql"><code class="prism  language-sparql">- ASK WHERE {
+ dbr:Köln dbo:country dbr:Germany .
+}
+</code></pre>
+<ol start="2">
 <li><strong>CONSTRUCT</strong>: Create new RDF triples from matches;</li>
 <li><strong>DESCRIBE</strong>: Create RDF triples about a resource;</li>
 <li><strong>SELECT(Most used)</strong>: Return matches as a collection of solution bindings;</li>
@@ -124,9 +134,32 @@ WHERE{
 
 }
 </code></pre>
+<h2 id="real-world-applications">Real World Applications</h2>
+<ul>
+<li><strong>Semantic Search</strong>: search engines based on context search;</li>
+<li><strong>Knowledge Graphs</strong>: query abilitiy on entities and its relationships in knowledge bases;</li>
+<li><strong>Data Integration</strong>: Binding data from different sources;<br>
+<strong>Examples:</strong> Google Knowledge Graph and Wikipedia ( embedded to Wikidata );</li>
+</ul>
+<h2 id="limitations-of-sparql">Limitations of SPARQL:</h2>
+<ul>
+<li><strong>Performance</strong>: while querying large datasets, the general performance can get dropped or slowed;</li>
+<li><strong>Complexity</strong>: complex queries require advanced knowledge in order to get the best use of it;</li>
+<li><strong>Interoperability</strong>: many datasets are not available in RDF.</li>
+</ul>
+<h2 id="future-directions">Future Directions:</h2>
+<ul>
+<li>Enhanced query optimization for faster performance;</li>
+<li>Better tools for creating queries and visualize them;</li>
+<li><strong>AI principles</strong> and <strong>ML models</strong> and applications for better performance and data retrieval;</li>
+<li>“In recent years, the field of <strong>neural machine translation (NMT) for SPARQL query generation</strong> has witnessed significant growth. Incorporating the copy mechanism with traditional encoder-decoder architectures and using pre-trained encoder-decoder and large language models have set new performance benchmarks”</li>
+<li><strong>Smart Data?</strong><br>
+through AI , Machine Learning Models, Data can be better understood by computers and therefore allows for intelligent automation;</li>
+</ul>
 <h3 id="sources-used">Sources used:</h3>
 <p>Source_1: <a href="https://link.springer.com/chapter/10.1007/978-3-642-12814-1_4">Using SPARQL and SPIN for Data Quality Management on the Semantic Web | SpringerLink</a></p>
 <p>Source_2: <a href="https://dl.acm.org/doi/10.1145/3397512">A review of the semantic web field | Communications of the ACM</a></p>
 <p>Source_3: <a href="https://dev.to/edent/sparql-an-absolute-beginner-s-guide-2c65#:~:text=Assign%20to%20the%20variable%2C%20data%20where%20the%20property,entity%2C%20and%20Q84%20is%20the%20ID%20of%20London.">SPARQL - An Absolute Beginner’s Guide - DEV Community</a></p>
 <p>Source_4: <a href="https://comunica.dev/docs/query/advanced/sparql_query_types/">Comunica – SPARQL query types</a></p>
+<p>Source_5: <a href="https://ieeexplore.ieee.org/document/10662970">A Comprehensive Evaluation of Neural SPARQL Query Generation From Natural Language Questions | IEEE Journals &amp; Magazine | IEEE Xplore</a></p>
 
