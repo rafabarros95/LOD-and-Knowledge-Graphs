@@ -48,7 +48,7 @@ October 2024</strong></p>
 <li><em><strong>Linked Open Data</strong></em> is a network of interlinked datasets from different sources acessible through RDF and SPARQL;</li>
 <li><em><strong>SPARQL</strong></em> viable users to query datasets such as DBpedia, Wikidata etc… That’s the limitation of formers Relational Datasets Retriever;</li>
 </ul>
-<p><img src="https://www.researchgate.net/publication/338317601/figure/download/fig2/AS:891086226599937@1589462920455/Linking-open-data-cloud-diagram-2020-by-Max-Schmachtenberg-et-al.ppm" alt="LOD Cloud Example"></p>
+<p><img src="https://th.bing.com/th/id/R.2ac86fe3a6f77d3b2bc417d3a7db5227?rik=7BYrvVVgEnS38w&amp;riu=http%3a%2f%2fcdn.pearltrees.com%2fs%2fpic%2fsq%2fthe-linked-open-data-cloud-51644367&amp;ehk=MuHOGXI0JsIiXZDUdD0P%2fR%2fCpliBHK%2fzrO4w5S9HB9s%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" alt="LOD Cloud"></p>
 <h3 id="syntax">Syntax:</h3>
 <p>Similar to SQL, SPARQL queries involve selecting specific data from structured triples (subject, predicate, object).</p>
 <h3 id="example-of-rdf-triples">Example of RDF Triples</h3>
