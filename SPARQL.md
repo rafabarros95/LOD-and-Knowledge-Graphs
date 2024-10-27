@@ -37,12 +37,18 @@ October 2024</strong></p>
 <p>SPARQL, which stands for <strong>SPARQL Protocol and RDF Query Language</strong>, is a powerful query language standardized by W3C and supposed to query and manipulate data stored in <strong>RDF</strong> (Resource Description Framework) format. It is widely used to interact with linked open data and knowledge graphs, especially in Semantic Web Context.</p>
 <h3 id="sparql-types">SPARQL Types:</h3>
 <ol>
-<li>ASK: check if at least one match exists and return boolean ( TRUE or FALSE );</li>
-<li>CONSTRUCT: Create RDF triples from matches;</li>
-<li>DESCRIBE: Create RDF triples about a resource;</li>
-<li>SELECT(Most used): Return matches as a collection of solution bindings;</li>
+<li><strong>ASK</strong>: check if at least one match exists and return boolean ( TRUE or FALSE );</li>
+<li><strong>CONSTRUCT</strong>: Create new RDF triples from matches;</li>
+<li><strong>DESCRIBE</strong>: Create RDF triples about a resource;</li>
+<li><strong>SELECT(Most used)</strong>: Return matches as a collection of solution bindings;</li>
 </ol>
 <p><img src="https://image.slidesharecdn.com/sparql-cheat-sheet-090616011306-phpapp01/85/SPARQL-Cheat-Sheet-6-320.jpg" alt="4 types of SPARQL"></p>
+<h2 id="application-in-lod">Application in LOD</h2>
+<ul>
+<li><em><strong>Linked Open Data</strong></em> is a network of interlinked datasets from different sources acessible through RDF and SPARQL;</li>
+<li><em><strong>SPARQL</strong></em> viable users to query datasets such as DBpedia, Wikidata etc… That’s the limitation of formers Relational Datasets Retriever;</li>
+</ul>
+<p><img src="https://www.researchgate.net/profile/Igor-Mishkovski/publication/321328847/figure/fig1/AS:565603641823232@1511861824288/Linked-Open-Data-Cloud-and-Data-publishers.png" alt="LOD Cloud Example"></p>
 <h3 id="syntax">Syntax:</h3>
 <p>Similar to SQL, SPARQL queries involve selecting specific data from structured triples (subject, predicate, object).</p>
 <h3 id="example-of-rdf-triples">Example of RDF Triples</h3>
@@ -77,8 +83,9 @@ October 2024</strong></p>
 <li><strong>SELECT</strong> - Specifies which variables to return.</li>
 <li><strong>WHERE</strong> - Defines patterns to match against the RDF triples in the dataset.</li>
 <li><strong>FILTER</strong> - (Optional) Adds conditions to limit the results based on certain criteria.</li>
+<li><strong>LIMIT</strong> - That defines how many researched data should be retrieved.</li>
 </ol>
-<h3 id="sparql-wikidata--example">SPARQL (Wikidata)  Example:</h3>
+<h2 id="sparql-wikidata--example">SPARQL (Wikidata)  Example:</h2>
 <h3 id="example-sparql-query">Example SPARQL Query</h3>
 <p>The following highlighted SPARQL query retrieves all people who studied at Trinity College:</p>
 <p><strong>?person wdt:P69 wd:Q332342 .</strong></p>
