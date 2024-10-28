@@ -4,7 +4,7 @@
 ---
 
 <p><strong>RAFAEL RODRIGUES BARROS<br>
-October 2024</strong></p>
+October, 28th 2024</strong></p>
 <h1 id="sparql---introduction-origins-challenges-and-applications">SPARQL - Introduction: Origins, Challenges and Applications</h1>
 <h2 id="covering-points-of-this-presentation">Covering points of this presentation:</h2>
 <ul>
@@ -19,23 +19,30 @@ October 2024</strong></p>
 </ul>
 <h2 id="contextual-analysis-sparql---deep-diving-into-the-query-of-semantic-web">Contextual Analysis: SPARQL - deep diving into the query of semantic web</h2>
 <ul>
-<li><strong>Data Access</strong> and <strong>Query Language</strong>  in order to handle large, complex and interconnected datasets**;</li>
+<li><strong>Data Access</strong> and <strong>Query Language</strong>  in order to handle large, complex and interconnected datasets;</li>
 <li><strong>Semantic Web Principle</strong>: data should be able to get accessed across platforms and universally understood;</li>
 <li><strong>Data Silos and its Interoperability</strong>: database tables with rows and columns makes difficult to understand and link the relationships between different datasets;</li>
 <li><strong>Relational Databases</strong>: rely on restructure while adding new data type when the pre-structured or predefined schema is modified;</li>
 <li><strong>SQL Queries Limitations</strong>: as the data are more interconnected, the traditional SQL queries struggle with optimized ways of querying and retrieving complex interlinked data and its relationships;</li>
-<li><strong>Limitation of Data Interpretation</strong>: the ability to reason and understand the meaning behind data by previously data systems was missing;</li>
-<li><strong>Sharing Data on Internet</strong>: the ability to reason and understand the meaning behind data by previously data systems was missing;</li>
+<li><strong>Limitation of Data Interpretation</strong>: previous data systems lacked the ability to reason and interpret data meaningfully;</li>
+<li><strong>Sharing Data on Internet</strong>: old databases weren’t made for sharing data across internet;</li>
 </ul>
 <p><img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2024/02/Relational-Database-vs-Graph-Database-1-1-scaled.jpg" alt="SPARQL Overview comparison"><br>
 <img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2024/02/image-77-2048x1426.png" alt="Graph Dataset Connection Example"></p>
-<h2 id="what-is-sparql-overview">What is SPARQL? Overview:</h2>
+<h2 id="early-challenges-in-rdf-data">Early Challenges in RDF Data</h2>
 <ul>
-<li><strong>SPARQL</strong> is the standard query language for RDF data, enabling users to query, retrieve, and manipulate data in RDF format.</li>
-<li>Developed by the <strong>W3C</strong> (World Wide Web Consortium), SPARQL is designed to interact with data on the Semantic Web.</li>
+<li><strong>Missing standardized way to query RDF data</strong>:</li>
+<li><em><strong>Eminent problem</strong></em>: Researches and developers faced limitations in querying RDF data across different sources, as each system often required unique approaches for data retrieval.</li>
+<li><strong>Isolated data:</strong></li>
+<li><em><strong>Eminent problem</strong></em>: data fragmented in differents systems and format, turning difficult to integrate and link.<br>
+<strong>Example</strong>: a dataset about Cologne’s landscape may be stored separately from the city’s population, which makes hard to connect them.</li>
+<li><strong>SPARQL made LOD gain richer insights:</strong></li>
+<li><em><strong>Problem:</strong></em> how to combine geographic data, population statistics, and historical records?<br>
+SPARQL’s ability to pull data from different RDF datasets turned data more accessible.</li>
 </ul>
-<h3 id="purpose">Purpose:</h3>
-<p>SPARQL, which stands for <strong>SPARQL Protocol and RDF Query Language</strong>, is a powerful query language standardized by W3C and supposed to query and manipulate data stored in <strong>RDF</strong> (Resource Description Framework) format. It is widely used to interact with linked open data and knowledge graphs, especially in Semantic Web Context.</p>
+<h2 id="what-is-sparql-overview-and-purpose">What is SPARQL? Overview and Purpose:</h2>
+<p><strong>SPARQL</strong> (SPARQL Protocol and RDF Query Language) is a powerful language created by the <strong>World Wide Web Consortium (W3C)</strong> to query and work with <strong>RDF (Resource Description Framework)</strong> data format. As the standard query language for RDF, SPARQL allows users to easily retrieve and manipulate data stored in the form of triples—connections between entities, like “Cologne is in Germany.” SPARQL is especially important for <strong>Linked Open Data</strong> and <strong>knowledge graphs</strong> in the <strong>Semantic Web</strong>, enabling users to uncover relationships and insights across vast and interconnected datasets.</p>
+<p>.</p>
 <h3 id="sparql-types">SPARQL Types:</h3>
 <ol>
 <li><strong>ASK</strong>: check if at least one match exists and return boolean ( TRUE or FALSE );</li>
@@ -44,7 +51,7 @@ October 2024</strong></p>
 <li><em><strong>Use Case</strong></em>: Useful for checks in data validation;</li>
 </ul>
 <pre class=" language-sparql"><code class="prism  language-sparql">- ASK WHERE {
- dbr:Köln dbo:country dbr:Germany .
+ dbr:Cologne dbo:country dbr:Germany .
 }
 </code></pre>
 <ol start="2">
@@ -162,4 +169,5 @@ through AI , Machine Learning Models, Data can be better understood by computers
 <p>Source_3: <a href="https://dev.to/edent/sparql-an-absolute-beginner-s-guide-2c65#:~:text=Assign%20to%20the%20variable%2C%20data%20where%20the%20property,entity%2C%20and%20Q84%20is%20the%20ID%20of%20London.">SPARQL - An Absolute Beginner’s Guide - DEV Community</a></p>
 <p>Source_4: <a href="https://comunica.dev/docs/query/advanced/sparql_query_types/">Comunica – SPARQL query types</a></p>
 <p>Source_5: <a href="https://ieeexplore.ieee.org/document/10662970">A Comprehensive Evaluation of Neural SPARQL Query Generation From Natural Language Questions | IEEE Journals &amp; Magazine | IEEE Xplore</a></p>
+<h1 id="thank-you-for-attending-to-my-presentation"><em><strong>Thank you for attending to my presentation</strong></em></h1>
 
