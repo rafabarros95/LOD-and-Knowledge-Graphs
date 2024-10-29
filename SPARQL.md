@@ -4,7 +4,7 @@
 ---
 
 <p><strong>RAFAEL RODRIGUES BARROS<br>
-October, 28th 2024</strong></p>
+October, 29th 2024</strong></p>
 <h1 id="sparql---introduction-origins-challenges-and-applications">SPARQL - Introduction: Origins, Challenges and Applications</h1>
 <h2 id="covering-points-of-this-presentation">Covering points of this presentation:</h2>
 <ul>
