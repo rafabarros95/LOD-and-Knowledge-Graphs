@@ -90,7 +90,16 @@ SPARQL’s ability to pull data from different RDF datasets turned data more acc
 <td><code>&lt;Country:Germany&gt;</code></td>
 </tr>
 </tbody>
-</table><hr>
+</table><ul>
+<li>another example:</li>
+</ul>
+<pre class=" language-sparql"><code class="prism  language-sparql">SELECT ?person 
+ WHERE { 
+   ?person rdf:type :Person .
+   ?person :interest :SustainableProducts . 
+   }
+</code></pre>
+<hr>
 <p><img src="https://th.bing.com/th/id/R.099b57f2ca635de32f62125d665cc0f8?rik=Y1Du%2fEgBkOw31A&amp;riu=http%3a%2f%2flim.univ-reunion.fr%2fstaff%2ffred%2fEnseignement%2fSW%2fSPARQL-by-example%2fspo-arrow.png&amp;ehk=t%2bd7wD6Wie0rfSDW%2f3TdT93%2fWU4xAro52EYV%2b6mgQtQ%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" alt=""></p>
 <p><em><strong>Code -  Triple pattern query:</strong></em></p>
 <p><img src="https://www.researchgate.net/publication/375618644/figure/fig3/AS:11431281204802839@1699967742547/a-Example-of-SPARQL-triple-pattern-query-b-After-translation-of-the-predicate-and.png" alt=""></p>
