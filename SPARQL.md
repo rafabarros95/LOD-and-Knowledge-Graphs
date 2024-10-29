@@ -85,9 +85,9 @@ SPARQL’s ability to pull data from different RDF datasets turned data more acc
 <td><code>&lt;Pizza&gt;</code></td>
 </tr>
 <tr>
-<td><code>&lt;City:Paris&gt;</code></td>
+<td><code>&lt;City:Cologne&gt;</code></td>
 <td><code>&lt;isInCountry&gt;</code></td>
-<td><code>&lt;Country:France&gt;</code></td>
+<td><code>&lt;Country:Germany&gt;</code></td>
 </tr>
 </tbody>
 </table><hr>
