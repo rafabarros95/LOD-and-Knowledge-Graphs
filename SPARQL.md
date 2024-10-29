@@ -96,7 +96,7 @@ SPARQL’s ability to pull data from different RDF datasets turned data more acc
 <pre class=" language-sparql"><code class="prism  language-sparql">SELECT ?person 
  WHERE { 
    ?person rdf:type :Person .
-   ?person :interest :SustainableProducts . 
+   ?person :interest :SustainableEnergies . 
    }
 </code></pre>
 <hr>
