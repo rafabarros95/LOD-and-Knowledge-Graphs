@@ -27,8 +27,7 @@ October, 29th 2024</strong></p>
 <li><strong>Limitation of Data Interpretation</strong>: previous data systems lacked the ability to reason and interpret data meaningfully;</li>
 <li><strong>Sharing Data on Internet</strong>: old databases weren’t made for sharing data across internet;</li>
 </ul>
-<p><img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2024/02/Relational-Database-vs-Graph-Database-1-1-scaled.jpg" alt="SPARQL Overview comparison"><br>
-<img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2024/02/image-77-2048x1426.png" alt="Graph Dataset Connection Example"></p>
+<p><img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2024/02/image-77-2048x1426.png" alt="Graph Dataset Connection Example"></p>
 <h2 id="early-challenges-in-rdf-data">Early Challenges in RDF Data</h2>
 <ul>
 <li><strong>Missing standardized way to query RDF data</strong>:</li>
