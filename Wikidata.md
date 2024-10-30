@@ -3,28 +3,28 @@
 
 ---
 
-<h1 id="slide-1">Slide 1</h1>
-<p>sdffff<br>
-ffffff</p>
-<h2 id="content-3">content 3</h2>
-<p>cccc<br>
-cccc<br>
-cccc</p>
-<h1 id="slide-2">Slide 2</h1>
-<p>xxx<br>
-xxxx<br>
-xxxxxx<br>
-xxxxxxxx<br>
-xxxxxxxxx</p>
+<p>% My Presentation Title<br>
+% My Name<br>
+% October 2024</p>
+<h1 id="introduction">Introduction</h1>
+<p>Welcome to my presentation!</p>
 <ul>
-<li>sss</li>
+<li>This is the first point.</li>
+<li>This is the second point.</li>
+<li>This is the third point.</li>
 </ul>
-<h1 id="slide-3">Slide 3</h1>
-<p>ffff<br>
-ffffff<br>
-ffffffff<br>
-ffffffffff<br>
-fffffffffff</p>
-<h1 id="slide-4">Slide 4</h1>
-<p>ss</p>
+<hr>
+<h1 id="second-slide">Second Slide</h1>
+<p>Here we can introduce <strong>more content</strong>.</p>
+<ul>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ul>
+<hr>
+<h1 id="a-slide-with-an-image">A slide with an image</h1>
+<p><img src="images/Example_presentation_black_orange_men_cloud.png" alt="A network of people">{ width=60% height=60% }</p>
+<hr>
+<h1 id="conclusion">Conclusion</h1>
+<p>Thank you for attending my presentation!</p>
 
